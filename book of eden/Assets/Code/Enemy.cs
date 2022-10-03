@@ -16,6 +16,23 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //enemy.SetDestination(target.position);
+        chase();
+    }
+
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Player")
+        {
+            Debug.Log("triggered");
+            //enemy.SetDestination(target.position);
+            chase();
+        }
+    }
+
+    void chase()
+    {
         enemy.SetDestination(target.position);
     }
 }
