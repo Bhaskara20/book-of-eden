@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 63ea6c038bd1d424f9f5116552786cf9
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: dda12f74ff9116a42b23482252b2c482, type: 3}
+  _instancesCopy:
+  - {fileID: 11400000, guid: 828412d2c80b9fd459a4d5e4da1dd99b, type: 2}
+  _fileAsset: {instanceID: 0}
+  _assetPath: Assets/Materials/woodfloorsubstance002.sbsar
